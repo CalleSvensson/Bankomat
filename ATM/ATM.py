@@ -13,7 +13,7 @@ def Meny1():
     nummer = KollaNummer("Ange kontonummer: ")
     if nummer in konto:
         os.system('cls')
-        print("Konto {nummer} finns redan. ")
+        print(f"Konto {nummer} finns redan. ")
     else:
         konto[nummer]= 0
         os.system('cls')
